@@ -1,5 +1,4 @@
 document.getElementById('consultaForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Evitar que se recargue la página
+    event.preventDefault();
     alert('¡Consulta enviada correctamente!');
-    // Aquí podrías agregar lógica adicional como enviar los datos por AJAX
 });
